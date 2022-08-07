@@ -30,8 +30,8 @@ BOT_TOKEN = ここにBOTのトークンを入力
 ② `config.json` を`index.js`と同じディレクトリに作成し、以下のコードを入力し、保存します。
 ```json
 {
-    "guildId": "976278385997266944",
-    "guildCommand": true
+    "guildId": "",
+    "guildCommand": false
 }
 ```
 `guildCommand`はスラッシュコマンドをGuildで登録するか否かをBooleanで、`guildId`には登録するサーバーのIDをStringで記入します。
